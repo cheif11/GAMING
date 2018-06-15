@@ -1,0 +1,48 @@
+* {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+
+body, div, ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+header {
+    font-size: 39pt;
+    color: #0076ff;
+}
+
+#myVideo {
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+p {
+    color:#00b1ff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px
+}
